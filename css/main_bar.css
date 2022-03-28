@@ -1,0 +1,668 @@
+body{overflow-x:hidden;}
+.main_bar{
+    display: block;
+    height: 800px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.clean {
+
+    clear: both;
+}
+
+/*>>>>>>>>>>>>.................... start first slider ...............<<<<<<<<<<<<*/
+.first_slider{
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: auto; 
+    width: auto;
+    background-attachment:scroll;
+    margin-bottom: 8px;
+    box-shadow: 0px 3px 5px rgb(10, 33, 16);
+    
+}
+
+.first_slider_header{
+    display: flex;
+    justify-content: center;
+    padding-top: 11%;
+    font-size: 30px;
+    color: rgb(10, 33, 16);
+    margin: 1%;
+    width: 67%;
+    text-align: center;
+}
+.first_slider_pra{
+    font-size: 19px;
+    color: black;
+    width: 60%;
+    margin: 1%;
+    
+}
+.button{
+    padding-bottom: 13%;
+}
+.button ul{
+    display: block;
+    background-color: darkslategray;
+    color: beige;
+    border-radius: 28px;
+    height: 61px;
+    width: 114px;
+    margin-left: 35%;
+    margin-top: 9%;
+    box-shadow: 1px 3px 9px black;
+
+}
+.button ul a{
+    text-align: center;
+    margin-top: 13%;
+    display: inline-block;
+    font-size: 26px;
+    margin-left: -18%;
+    text-decoration: none;
+    color: aliceblue;
+        
+}
+.button ul:hover{
+    background-color:black;
+    color:azure;
+}
+/*>>>>>>>>>>>>>>>.......... end first slider ..........<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>............start brand slider ...........<<<<<<<<<<<<<<<*/
+.brand_slider{
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-color: coral;
+    margin-top: 1px;
+    box-shadow: 0px 3px 5px rgb(121, 121, 121);
+}
+/*>>>>>>>>>>>>>>>>......... end brand slider ...........<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>..........start experience section ..........<<<<<<<<<<<<*/
+.experience_section{
+    display: block;
+    height: auto;
+    clear: both;
+    box-shadow: 0px 3px 5px rebeccapurple;
+}
+
+.experience_section > .row{
+    margin-left: 55%;
+    display: inline-block;
+    padding: 10%;
+    width: 90%;
+    height: auto;
+
+}
+.col_mb p{
+    width: 100%;
+}
+.col_mb{
+    margin:10px;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 7%;
+    clear: both;
+    
+}
+.experience_content{
+    padding:4px;
+    margin-left: 20%;
+    text-align: left;
+    height: auto;
+    
+    
+}
+.container > .row {
+    width: 100%;
+    height: auto;
+    margin-top: -7%;
+    margin-left: 7%;
+}
+.experience_content ul{
+    list-style-image: url("image/list_icon.jpg");
+    margin-top: 5%;
+}
+.experience_content li{
+    height: 58px;
+}
+
+.singl_image{
+    background-image: url(image/man.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 95%;
+    height: 765px;
+    width: auto;;
+
+}
+/*>>>>>>>>>>>>>>......... end experience section ...........<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>.......... start counter section ........<<<<<<<*/
+.counter_section{
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    background-color: #cee5ed;
+    box-shadow: 0px 3px 5px lightslategray;
+    overflow: hidden;
+
+}
+.counter_section > .container{
+    margin: 3%;
+    display: inline-block;
+    padding: 10px;
+    width: 93%;
+    text-align: center;
+    margin-left: 17%;
+    
+}
+.icon{
+    width: 235px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.icon_area{
+    display: block;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    width: 27px;
+    height: 27px;
+    padding: 15px;
+    margin-top: 22px;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.contents{
+    display: block;
+    overflow: hidden;
+    width: 140px;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    
+}
+.contents >p{
+    margin-top: -13px;
+    text-align: left;
+}
+.contents > h4{
+    text-align: left;
+}
+.icon:hover .icon_area{
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 27px;
+    height: 27px;
+    padding: 15px;
+    margin-top: 22px;
+    border: 1px solid #fcadad;
+    border-radius: 50px;
+    color: #ffcc00;
+    background-color: #040435;
+    box-shadow: 0px 2px 4px #ce6f04;
+
+}
+
+/*>>>>>>>>>>>>>>>..........end counter section ..........<<<<<<*/
+/*>>>>>>>>>>>>>>..........start services section ........<<<<<<*/
+.services_section{
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 6px;
+    box-shadow: 0px 3px 5px lightgreen;
+    text-align: center;
+}
+.se_1{
+    display: block;
+    padding: 10px;
+    margin: 6px;
+    line-height: 9px;
+    margin-left: 41%;
+    width: 179px;
+    height: 72px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.se_2{
+    display: block;
+    height: auto;
+    width: 95%;
+    margin: 2%;
+    overflow: hidden;
+}
+.se_colm{
+    margin-left: 8px;
+    display: block;
+    height: 650px;
+    width: 400px;
+    margin: 10px;
+    float: left;
+    
+}
+.clam2{
+    background-image: url("image/man1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+.service{
+    display: block;
+    overflow: hidden;
+    padding:10px;
+
+}
+.service_row{
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px;
+    padding: 10px;
+    
+}
+.service_icon{
+    display: block;
+    overflow: hidden;
+    float: left;
+    height: 40px;
+    width: 52px;
+    border: 1px solid gray;
+    border-radius: 52px;
+    margin: 8px;
+    text-align: center;
+    padding-top: 12px;
+
+}
+
+.service_content{
+    display: block;
+    overflow: hidden;
+    float: right;
+    margin-top: -11%;
+    padding: 5px;
+    width: 240px;
+    height: auto;
+    text-align: left;
+}
+.service_content > h2, .service > p{
+    width: 230px;
+    height: auto;
+    padding: 5px;
+    
+}
+.service_row:hover .service_icon{
+    background-color: #03032b;
+    color:#ffcc00;
+    border:1px solid #ffcc00;
+
+}
+
+/*>>>>>>>>>>..........end services section .........<<<<<<<*/
+/*>>>>>>>>>>.......... start choose us section ......<<<<<*/
+.choose_section{
+    background-image: url("image/cover1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local;
+    box-shadow: 0px 3px 4px #040435;
+    position: absolute;
+    width: 99%;
+    height: auto;
+    margin-top: -19px;
+}
+.choose_section > .container{
+    width: 90%;
+    padding: 1%;
+    margin-left: 1%;
+}
+.choose_row{
+    display:block;
+    overflow: hidden;
+    margin: 8px;
+    margin-top: 3px;
+    width: 93%;
+}
+.text >p, .text >h1{
+    margin-left: 12%;
+    color: #fff; 
+    text-align: center;
+    
+       
+}
+.colm_2{
+    width: 291px;
+    height: auto;
+    float: left;
+    margin: 5px;
+    
+}
+.choose_us{
+    width: 100%;
+    height: 100%;
+    
+}
+.row_colm{
+    margin-left: 18%;
+    
+}
+.choose_icon{
+    border: 1px solid rgb(237, 192, 15);
+    width: 54px;
+    height: 40px;
+    text-align: center;
+    padding-top: 14px;
+    border-radius: 54px;
+    color:#ce6f04;  
+}
+.choose_us > .content{
+    margin-top: -22%;
+    margin-left: 22%;
+}
+.choose_us > .content > p {
+    color: #ffffff;
+    margin-left: 1%;
+    margin-top: 4px;
+    font-size: 15px;
+    width: 234px;
+}
+.choose_us > .content > h4{
+    color:#ffcc00;
+    margin-left: 1%;
+    margin-top: 4px;
+    height: 5px;
+}
+.choose_us:hover .choose_icon{
+    color:#ffcc00;
+    background-color:#040435;
+}
+/*>>>>>>>>>>>>>end why choose us <<<<<<<<<<<*/
+/*>>>>>>>>>>>>>start recent work <<<<<<<<<<*/
+.recent_work_section{
+    background-image: url(image/work.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-top: 26%;
+    height: inherit;
+    width: 100%;
+    display: block;
+    box-shadow: 0px 2px 5px #cee5ed;
+}
+.recent{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin-top: 22px;
+}
+.title{
+    width: 400px;
+    margin-left: 46%;
+    padding-top: 7%;
+    color: darkred;
+    line-height: 11px;
+    font-size: 27px;
+}
+.recent_work{
+    width: 100%;
+    margin-left: 14%;
+    height: auto;
+}
+.work{
+    width: 253px;
+    height: 288px;
+    float: left;
+    margin: 5px;
+}
+.img{
+    width: 249px;
+    height: 176px;
+    margin: 3px;
+    overflow: hidden;
+    
+    
+}
+.colam > .img img {
+    width: 249px;
+    height: 176px;
+    border: 1px solid #040435;
+    
+}
+ .colam > h3, .colam >p{
+     width: 248px;
+     margin: 4px;
+     
+ }
+.colam {
+    width: 100%;
+    float: left;
+    background-color: #fcfcfc;
+}
+.colam :hover img{
+    width: 250px;
+    height: 176px;
+    transform: scale(3.8);
+    transition: .9s;
+}
+/*>>>>>>>>> end recent work <<<<<<<<<<<*/
+/*>>>>>>>> start blog section <<<<<<<<<*/
+.blog_section{
+    padding: 10px;
+    margin: 0px;
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.blog_section_content{
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 8px;
+    margin-left: 9%;
+
+}
+.head_bolg{
+    padding-top: 10px;
+    width: 18%;
+    height: 170px;
+    margin-left: 40%;
+    text-align: center;
+    line-height: 12px;
+
+}
+.head_bolg > h1{
+    font-size: 45px;
+}
+.blog_contner{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+}
+.blog{
+    display: inline-block;
+    width: 314px;
+    height: 500px;
+    padding: 7px;
+    margin: 9px;
+}
+.blog_image > img{
+    width: 310px;
+    height: 200px;
+
+}
+.blog_text{
+    display: block;
+    width: 310px;
+    height: 300px;
+    padding: 8px;
+    
+}
+.read{
+    display: block;
+    padding: 0px;
+    margin: -11px;
+    margin-right: 10px;
+    float: right;
+
+}
+.read > button{
+    display:block;
+    text-decoration: none;
+    color:#fff;
+    background-color:#03032b;
+    border: 1px solid black;
+    border-radius: 11px;
+    width: 97px;
+    height: 35px;
+}
+.read > button > a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.read > button:hover a{
+    color:#ce6f04
+}
+
+/*>>>>>>>> end blog section <<<<<<<<<*/
+/*>>>>>>>>start fooder section <<<<<<<*/
+.fooder_section{
+    background-color:#03032b;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 5px;
+    color:#f7ebeb;
+    
+    
+}
+.fooder_bar{
+    display: block;
+    width: 80%;
+    margin-left: 12%;
+    padding: 8px;
+
+}
+.about1{
+    width: 450px;
+    float: left;
+    margin: 7px;
+    padding: 4px;
+
+}
+.about_construs{
+    width: 300px;
+    padding: 7px;
+    float: left;
+}
+.about_construs > p{
+    color: gray;
+}
+.about_construs > .email{
+    width: 215px;
+    height: 33px;
+    margin-bottom: 4px; 
+}
+.about_construs > .send > button{
+    background-color: aliceblue;
+    height: 38px;
+    border: none;
+    color: #e68915fa;
+    font-size: 32px;
+}
+.send{
+    height: 43px;
+    width: 74px;
+    float: right;
+}
+.quick_link{
+    width: 120px;
+    padding: 4px;
+    float: right;
+    font-size: 16px;
+    
+}
+.quick_link > ul {
+    list-style: none;
+    line-height: 26px;
+    text-align: left;
+    width: 93px;
+    margin-left: -30%;
+}
+.quick_link > ul > li >a{
+    text-decoration: none;
+    color: gray;
+}
+
+.office_address{
+    width: 220px;
+    height: auto;
+    padding: 4px;
+    float: left;
+}
+.office_address > .address > span {
+    height: 35px;
+    float: left;
+}
+.address > p{
+    height: 37px;
+    width: 186px;
+    float: right;
+    margin: 2px;
+    font-size: 13px;
+    color: gray;
+}
+.address > .material-icons{
+    font-size: 17px;
+    margin-top: 4px;
+    color:#cee5ed
+}
+.business_hours{
+    width: 210px;
+    height: auto;
+    float: right;
+    color: gray;
+}
+
+.business_hours > h3 {
+    color: #f7ebeb;
+}
+.copy> hr{
+    height:1px;
+    color: gray;
+}
+.write{
+    width: 401px;
+    margin-left: 14%;
+    font-size: 12px;
+    padding-bottom: 1px;
+}
+.copy > .socal_icon{
+    width: 403px;
+    float: right;
+}
+.copy > .socal_icon > .material-icons{
+    height: 30px;
+    float: left;
+    padding: 1px;
+    margin-left: -2%;
+    color:#66667e;
+    font-size: 17px;
+}
